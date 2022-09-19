@@ -1,0 +1,45 @@
+♟♞♝♜♛♚ (black pieces)
+♙♘♗♖♕♔ (white pieces)
+
+#board layout diagram
+8	 ♖ ♘ ♗ ♕ ♔ ♗ ♘ ♖
+7	 ♙ ♙ ♙ ♙ ♙ ♙ ♙ ♙
+6	 · · · · · · · ·
+5	 · · · · · · · ·
+4	 · · · · · · · ·
+3	 · · · · · · · ·
+2    ♟ ♟ ♟ ♟ ♟ ♟ ♟ ♟︎
+1    ♜ ♞ ♝ ♛ ♚ ♝ ♞ ♜
+
+     a b c d e f g h
+
+#input symbol
+#- type 'help' for commands
+>>
+
+#points display
+#- white then black
+#- pieces are ordered
+#- total points? 
+#- points ahead counter
+WHITE: ♟♟♟♞♝♜ | 14 
+BLACK: ♙♙♙♙♗♗♖♕ | 24 (+10)
+
+#win displays
+WHITE has won!
+BLACK has won!
+STALEMATE
+
+#display moves
+#- x is capture
+#- • is move
+8	 ♖ ♘ ♗ ♕ ♔ ♗ ♘ ♖
+7	 ♙ ♙ ♙ ♙ · ♙ ♙ ♙
+6	 · · · · · · · ·
+5	 · · · • x · · ·
+4	 · · · ♟ · · · ·
+3	 · · · · · · · ·
+2    ♟ ♟ ♟ · ♟ ♟ ♟ ♟︎
+1    ♜ ♞ ♝ ♛ ♚ ♝ ♞ ♜
+
+     a b c d e f g h

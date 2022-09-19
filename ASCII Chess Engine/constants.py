@@ -1,0 +1,47 @@
+empty_square = '·'
+possible_move = '•'
+possible_capture = 'x'
+
+white_king = 'K'
+white_queen = 'Q'
+white_rook = 'R'
+white_bishop = 'B'
+white_knight = 'N'
+white_pawn = 'P'
+
+black_king = 'k'
+black_queen = 'q'
+black_rook = 'r'
+black_bishop = 'b'
+black_knight = 'n'
+black_pawn = 'p'
+
+#piece symbols (normal)
+white_king = '♔'
+white_queen = '♕'
+white_rook = '♖'
+white_bishop = '♗'
+white_knight = '♘'
+white_pawn = '♙'
+
+black_king = '♚'
+black_queen = '♛'
+black_rook = '♜'
+black_bishop = '♝'
+black_knight = '♞'
+black_pawn = '♟'
+
+#piece symbols (inverted)
+white_king = '♚'
+white_queen = '♛'
+white_rook = '♜'
+white_bishop = '♝'
+white_knight = '♞'
+white_pawn = '♟'
+
+black_king = '♔'
+black_queen = '♕'
+black_rook = '♖'
+black_bishop = '♗'
+black_knight = '♘'
+black_pawn = '♙'
